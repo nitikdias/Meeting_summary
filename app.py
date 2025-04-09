@@ -36,7 +36,7 @@ app.config["SUMMARY"] = {"summary": "", "key_points": "", "actions": ""}
 
 pipeline = Pipeline.from_pretrained(
     "pyannote/speaker-diarization-3.0",
-    use_auth_token="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"
+    use_auth_token="token"
 )
 
 def save_wav(filename, data):
